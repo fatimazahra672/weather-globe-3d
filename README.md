@@ -111,14 +111,6 @@ cd weather-globe-3d
 ```bash
 npm install
 ```
-
-3. **Configurer la clé API**
-   - Créez un fichier `.env` à la racine du projet
-   - Ajoutez votre clé API OpenWeather :
-```env
-REACT_APP_WEATHER_API_KEY=votre_clé_api_ici
-```
-
 4. **Lancer l'application en mode développement**
 ```bash
 npm start
@@ -146,23 +138,6 @@ npm start
 - Vous pouvez activer/désactiver les sons selon vos préférences
 
 ---
-
-## Déploiement
-
-### Déploiement sur Vercel
-
-1. **Créer un compte Vercel** (si nécessaire)
-   - Allez sur [vercel.com](https://vercel.com)
-
-2. **Connecter votre repository GitHub**
-   - Importez votre projet depuis GitHub
-
-3. **Configurer les variables d'environnement**
-   - Ajoutez `REACT_APP_WEATHER_API_KEY` dans les paramètres Vercel
-
-4. **Déployer**
-   - Vercel déploie automatiquement à chaque push sur la branche principale
-
 ### Build de Production
 ```bash
 npm run build
