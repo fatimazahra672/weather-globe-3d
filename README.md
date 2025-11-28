@@ -1,4 +1,4 @@
-# 🌍 Weather Globe 3D - Application Météo Interactive
+# Weather Globe 3D - Application Météo Interactive
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![OpenWeather](https://img.shields.io/badge/OpenWeather-API-orange?style=for-the-badge&logo=openweathermap&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### 🚀 [**VOIR LE SITE EN LIGNE**](https://weather-globe-3d.vercel.app/) 🚀
+### [**VOIR LE SITE EN LIGNE**](https://weather-globe-3d.vercel.app/)
 
 *Une application météo moderne avec un globe terrestre 3D interactif, des effets sonores immersifs et des données météorologiques en temps réel.*
 
@@ -15,48 +15,48 @@
 
 ---
 
-## 📋 Table des Matières
+## Table des Matières
 
-- [✨ Fonctionnalités](#-fonctionnalités)
-- [🎥 Démonstration](#-démonstration)
-- [🛠️ Technologies Utilisées](#️-technologies-utilisées)
-- [⚙️ Installation](#️-installation)
-- [🚀 Utilisation](#-utilisation)
-- [🌐 Déploiement](#-déploiement)
-- [📁 Structure du Projet](#-structure-du-projet)
-- [🔑 Configuration API](#-configuration-api)
-- [🎨 Personnalisation](#-personnalisation)
-- [📝 Licence](#-licence)
-- [👤 Auteur](#-auteur)
+- [Fonctionnalités](#fonctionnalités)
+- [Démonstration](#démonstration)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Déploiement](#déploiement)
+- [Structure du Projet](#structure-du-projet)
+- [Configuration API](#configuration-api)
+- [Personnalisation](#personnalisation)
+- [Licence](#licence)
+- [Auteur](#auteur)
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-### 🌐 Globe 3D Interactif
+### Globe 3D Interactif
 - **Globe terrestre réaliste** avec texture haute résolution
 - **Rotation automatique** fluide et personnalisable
 - **Interaction au clic** : cliquez n'importe où sur le globe pour obtenir la météo locale
 - **Conversion coordonnées** : transformation automatique des coordonnées 3D en latitude/longitude
 
-### ☀️ Données Météo en Temps Réel
+### Données Météo en Temps Réel
 - **API OpenWeather** : données météorologiques précises et actualisées
 - **Recherche par ville** : trouvez la météo de n'importe quelle ville dans le monde
 - **Informations complètes** :
-  - 🌡️ Température actuelle (°C)
-  - 💧 Humidité (%)
-  - 💨 Vitesse du vent (km/h)
-  - ☁️ Description météo détaillée
-  - 🏙️ Nom de la ville et pays
+  - Température actuelle (°C)
+  - Humidité (%)
+  - Vitesse du vent (km/h)
+  - Description météo détaillée
+  - Nom de la ville et pays
 
-### 🎵 Effets Sonores Immersifs
+### Effets Sonores Immersifs
 - **Sons d'ambiance** adaptés à la météo :
-  - 🌿 Sons de nature (ciel dégagé)
-  - ☁️ Sons de nuages (temps nuageux)
-  - 🌧️ Sons de pluie (temps pluvieux)
+  - Sons de nature (ciel dégagé)
+  - Sons de nuages (temps nuageux)
+  - Sons de pluie (temps pluvieux)
 - **Contrôle audio** : activation/désactivation des sons
 
-### 🎨 Interface Moderne
+### Interface Moderne
 - **Design responsive** : fonctionne sur tous les appareils
 - **Animations fluides** : transitions et effets visuels
 - **Thème spatial** : fond étoilé avec ambiance cosmique
@@ -64,17 +64,13 @@
 
 ---
 
-## 🎥 Démonstration
+## Démonstration
 
-### 🔗 Lien du Site
-**👉 [https://weather-globe-3d.vercel.app/](https://weather-globe-3d.vercel.app/)**
-
-### 📸 Captures d'Écran
-*(Ajoutez vos captures d'écran ici)*
+**Lien du site : [https://weather-globe-3d.vercel.app/](https://weather-globe-3d.vercel.app/)**
 
 ---
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 ### Frontend
 - **React 18.3.1** - Bibliothèque JavaScript pour l'interface utilisateur
@@ -96,7 +92,7 @@
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prérequis
 - **Node.js** (version 14 ou supérieure)
@@ -133,7 +129,7 @@ npm start
 
 ---
 
-## 🚀 Utilisation
+## Utilisation
 
 ### Rechercher une Ville
 1. Tapez le nom d'une ville dans la barre de recherche
@@ -151,7 +147,7 @@ npm start
 
 ---
 
-## 🌐 Déploiement
+## Déploiement
 
 ### Déploiement sur Vercel
 
@@ -175,7 +171,7 @@ Le dossier `build/` contient les fichiers optimisés pour la production.
 
 ---
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 weather-globe-3d/
@@ -200,7 +196,7 @@ weather-globe-3d/
 
 ---
 
-## 🔑 Configuration API
+## Configuration API
 
 ### Obtenir une Clé API OpenWeather
 
@@ -218,7 +214,7 @@ REACT_APP_WEATHER_API_KEY=votre_clé_api_ici
 
 ---
 
-## 🎨 Personnalisation
+## Personnalisation
 
 ### Modifier la Vitesse de Rotation du Globe
 Dans `Globe.js`, ajustez la valeur :
@@ -234,26 +230,24 @@ Ajoutez vos fichiers audio dans `public/` et mettez à jour les références dan
 
 ---
 
-## 📝 Licence
+## Licence
 
 Ce projet est sous licence **MIT**. Vous êtes libre de l'utiliser, le modifier et le distribuer.
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Fatima Zahra El hamdani**
 
-- 🌐 **Site en ligne** : [https://weather-globe-3d.vercel.app/](https://weather-globe-3d.vercel.app/)
-- 💼 **LinkedIn** : [linkedin.com/in/fatima-zahra-el-hamdani-5ab54a296](https://www.linkedin.com/in/fatima-zahra-el-hamdani-5ab54a296/)
-- 🐙 **GitHub** : [github.com/fatimazahra672](https://github.com/fatimazahra672)
+- **Site en ligne** : [https://weather-globe-3d.vercel.app/](https://weather-globe-3d.vercel.app/)
+- **LinkedIn** : [linkedin.com/in/fatima-zahra-el-hamdani-5ab54a296](https://www.linkedin.com/in/fatima-zahra-el-hamdani-5ab54a296/)
+- **GitHub** : [github.com/fatimazahra672](https://github.com/fatimazahra672)
 
 ---
 
 <div align="center">
 
-### ⭐ Si vous aimez ce projet, n'hésitez pas à lui donner une étoile ! ⭐
-
-**Fait avec ❤️ et React**
+**Fait avec React**
 
 </div>
