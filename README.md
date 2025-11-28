@@ -189,52 +189,11 @@ weather-globe-3d/
 │   ├── App.js                 # Composant principal
 │   ├── App.css                # Styles globaux
 │   └── index.js               # Point d'entrée
-├── .env                       # Variables d'environnement (à créer)
+├── .env                       # Variables d'environnement 
 ├── package.json
 └── README.md
 ```
 
----
-
-## Configuration API
-
-### Obtenir une Clé API OpenWeather
-
-1. **Créer un compte** sur [OpenWeather](https://openweathermap.org/)
-2. **Générer une clé API** (gratuite)
-3. **Ajouter la clé** dans le fichier `.env` :
-```env
-REACT_APP_WEATHER_API_KEY=votre_clé_api_ici
-```
-
-### Limites de l'API Gratuite
-- **60 appels/minute**
-- **1,000,000 appels/mois**
-- Largement suffisant pour un usage personnel
-
----
-
-## Personnalisation
-
-### Modifier la Vitesse de Rotation du Globe
-Dans `Globe.js`, ajustez la valeur :
-```javascript
-mesh.rotation.y += 0.001; // Augmentez pour une rotation plus rapide
-```
-
-### Changer la Texture du Globe
-Remplacez `earth_texture.jpg` dans le dossier `public/` par votre propre texture.
-
-### Ajouter de Nouveaux Sons
-Ajoutez vos fichiers audio dans `public/` et mettez à jour les références dans `App.js`.
-
----
-
-## Licence
-
-Ce projet est sous licence **MIT**. Vous êtes libre de l'utiliser, le modifier et le distribuer.
-
----
 
 ## Auteur
 
