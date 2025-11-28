@@ -1,0 +1,90 @@
+.wallpaper {
+  &-container {
+    z-index: -1;
+    background-color: black;
+  }
+
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0.4;
+  filter: blur(2px)
+}
+
+// Fond spatial
+.space-background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #000000 0%, #0a0e27 50%, #16213e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+// Étoiles scintillantes
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  animation: twinkle infinite ease-in-out;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+// Planètes flottantes
+.planet {
+  position: absolute;
+  animation: planetFloat infinite ease-in-out;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+  z-index: 1;
+}
+
+@keyframes planetFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(20px) rotate(-5deg);
+  }
+}
+
+// Satellites en mouvement
+.satellite {
+  position: absolute;
+  font-size: 2rem;
+  animation: float infinite linear;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  z-index: 2;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(100px, -50px) rotate(90deg);
+  }
+  50% {
+    transform: translate(200px, 0) rotate(180deg);
+  }
+  75% {
+    transform: translate(100px, 50px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
